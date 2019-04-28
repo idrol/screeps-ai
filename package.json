@@ -1,0 +1,22 @@
+{
+  "name": "screeps_ai",
+  "version": "1.0.0",
+  "description": "## How it works The ai automates alot of repetetive tasks such as creating new screeps and   autoscaling their body parts while making sure that there are always harvesters alive to fill up the spawner.   The harvesters jobs are to mine sources and refill the spawn after that the harvesters place the remaining energy into a container.   The builder upgrader and repairer can only take energy from containers and thus will not interfare with the harvesters.",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack",
+    "deploy": "npm run build && copy .\\main.js C:\\Users\\Idrol\\AppData\\Local\\Screeps\\scripts\\idrol_net___21025\\default"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.idrol.net:idrol/screeps_ai.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "screeps-profiler": "^2.0.1",
+    "ts-loader": "^2.3.4",
+    "typescript": "^2.4.2",
+    "webpack": "^3.5.5"
+  }
+}
